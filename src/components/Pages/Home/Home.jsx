@@ -1,10 +1,11 @@
 import React  from "react";
 import "./Home.css";
+import Navbar from "../Navbar/Navbar";
+
 function Home() {
   return (
     <div className="home">
-      <h1>Welcome to the Netflix Clone</h1>
-      <p>Enjoy your favorite movies and shows!</p>
+      <Navbar />
     </div>
   );
 }
