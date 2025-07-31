@@ -8,4 +8,4 @@ function Login() {
     </div>
   );
 }
-default export Login;
+export default Login;
